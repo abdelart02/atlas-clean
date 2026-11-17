@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# Site de démonstration : remplacer par « Allow: / » et ajouter le sitemap une fois le domaine définitif connu.

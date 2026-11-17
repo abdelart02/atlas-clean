@@ -1,0 +1,44 @@
+ATLAS CLEAN — Site de démonstration (Krit Digital)
+====================================================
+
+OUVRIR LE SITE
+- Double-cliquez sur index.html : le site s'ouvre dans votre navigateur.
+  Tous les liens fonctionnent aussi en local.
+- Pour la mise en ligne : copiez tout le contenu de ce dossier à la racine
+  de l'hébergement (public_html). Les adresses seront propres :
+  /services/, /contact/, /a-propos/ ...
+
+PAGES
+- index.html ............................ Accueil
+- a-propos/ ............................. À propos
+- services/ ............................. Tous les services (6)
+- services/nettoyage-de-bureaux/ ........ Page dédiée
+- services/nettoyage-residentiel/ ....... Page dédiée
+- services/nettoyage-apres-travaux/ ..... Page dédiée
+- realisations/ ......................... Galerie (filtres + visionneuse)
+- zones-d-intervention/ ................. Zones (exemples)
+- contact/ .............................. Contact & formulaire de devis
+- mentions-legales/, politique-de-confidentialite/ (modèles à compléter)
+- 404.html .............................. Page introuvable
+
+INFORMATIONS DE L'ENTREPRISE
+- Un seul fichier : assets/js/config.js
+  (nom, téléphone, e-mail, adresse, horaires, numéro WhatsApp, réseaux sociaux,
+  bandeau « démonstration », domaine du site).
+- Tant que le numéro WhatsApp est vide, le formulaire affiche un aperçu du
+  message (mode démonstration) au lieu d'ouvrir un lien cassé.
+
+DESIGN
+- Couleurs, polices et espacements : variables en haut de assets/css/style.css.
+
+VISUELS
+- Les images de assets/img/ sont des illustrations de démonstration, marquées
+  « Visuel d'illustration · à remplacer ». Elles seront remplacées par de vraies
+  photos (format WebP recommandé).
+
+AVANT LA MISE EN LIGNE POUR UN VRAI CLIENT
+- Mettre demoMode à false et renseigner siteUrl dans config.js.
+- Retirer la balise « noindex » et autoriser l'indexation dans robots.txt.
+- Ajouter les balises canonical, le sitemap et les données structurées
+  (LocalBusiness) avec les informations vérifiées de l'entreprise.
+- Compléter les mentions légales et la politique de confidentialité.
